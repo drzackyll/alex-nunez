@@ -7,7 +7,7 @@ const Home = () => {
     <br />
       <div className="row">
         <div className="col-xs-3 col-xs-offset-1">
-          <img src={require("../public/images/martin.jpg")} style={{maxWidth: "100%", maxHeight: "100%"}} alt="Alex Nunez"/>
+          <img src={require("../../public/images/martin.jpg")} style={{maxWidth: "100%", maxHeight: "100%"}} alt="Alex Nunez"/>
         </div>
         <div className="col-xs-3">
           what i offer<br />
