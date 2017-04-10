@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HireMe = () => {
+const Contact = () => {
   return (
     <div className="container-fluid">
       <div className="row">
@@ -12,4 +12,4 @@ const HireMe = () => {
   )
 }
 
-export default HireMe
+export default Contact

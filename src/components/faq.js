@@ -5,7 +5,7 @@ const FAQ = () => {
     <div className="container-fluid">
       <div className="row">
         <div className="col-xs-8 col-xs-offset-2">
-          FAQ
+          Frequently Asked Questions
         </div>
       </div>
     </div>
