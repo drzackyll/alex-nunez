@@ -1,17 +1,19 @@
 import React from 'react'
 import { Route, IndexRoute } from 'react-router'
 import App from './App'
-import Home from './components/home'
+import Landing from './components/landing'
 import About from './components/about'
-import FAQ from './components/faq'
-import Contact from './components/contact'
+import Small from './components/small'
+import HomeUser from './components/home_user'
+import Testimonials from './components/testimonials'
 
 const Routes = (
   <Route path="/" component={App}>
-    <IndexRoute component={Home} />
+    <IndexRoute component={Landing} />
     <Route path="/about" component={About} />
-    <Route path="/faq" component={FAQ} />
-    <Route path="/contact" component={Contact} />
+    <Route path="/smallbusiness" component={Small} />
+    <Route path="/homeuser" component={HomeUser} />
+    <Route path="/testimonials" component={Testimonials} />
   </Route>
 )
 
