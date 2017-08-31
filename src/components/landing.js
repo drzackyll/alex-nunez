@@ -5,6 +5,7 @@ const Landing = () => {
     <div className="container-fluid">
       <div className="row">
         <div className="col-sm-8 col-sm-offset-2">
+          <h3 style={{textAlign: "center"}}>A to Z Tech Group</h3>
           <p>
             We are a small personalized computer consulting firm focused on
             helping individuals and small businesses get the most out of the

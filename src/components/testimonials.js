@@ -15,9 +15,12 @@ const Reviews = [
 ]
 
 const formatted = () => {
-  return Reviews.map(r => {
+  return Reviews.map((r, i) => {
     return (
-      <div>{r}</div>
+      <div>
+        <p key={i}>{r}</p>
+        <hr/>
+      </div>
     )
   })
 }
@@ -27,7 +30,9 @@ const Testimonials = () => {
     <div className="container-fluid">
       <div className="row">
         <div className="col-sm-8 col-sm-offset-2">
-          <ul>{formatted()}</ul>
+          <a className="anchor" name="testimonials" />
+          <h3>Testimonials</h3><br/>
+          {formatted()}
         </div>
       </div>
     </div>

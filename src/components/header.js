@@ -1,9 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router'
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-inverse">
+    <nav className="navbar navbar-default navbar-fixed-top">
       <div className="container-fluid">
         <div className="navbar-header">
           <button className="navbar-toggle navbar-toggle-right" data-toggle="collapse" data-target="#navbarToggler" aria-expanded="false" aria-controls="navbar">
@@ -15,10 +14,10 @@ const Header = () => {
         </div>
         <div className="collapse navbar-collapse" id="navbarToggler">
           <div className="nav navbar-nav" style={{textAlign: "center"}}>
-            <button className="btn-link navbar-btn"><Link to="/smallbusiness">Small Business</Link></button>
-            <button className="btn-link navbar-btn"><Link to="/homeuser">Home Users</Link></button>
-            <button className="btn-link navbar-btn"><Link to="/testimonials">Testimonials</Link></button>
-            <button className="btn-link navbar-btn"><Link to="/about">About</Link></button>
+            <button className="btn-link navbar-btn"><a href="#homeuser">Home Users</a></button>
+            <button className="btn-link navbar-btn"><a href="#smallbusiness">Small Business</a></button>
+            <button className="btn-link navbar-btn"><a href="#testimonials">Testimonials</a></button>
+            <button className="btn-link navbar-btn"><a href="#about">About</a></button>
           </div>
         </div>
       </div>

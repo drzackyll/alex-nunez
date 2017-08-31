@@ -5,11 +5,12 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: 'Saira Semi Condensed', sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 body {
+  padding-top: 70px;
   margin: 0;
 }
 article,
@@ -1082,8 +1083,8 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Ubuntu", Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
@@ -4168,6 +4169,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
+  border-bottom: 0.5px solid
 }
 @media (min-width: 768px) {
   .navbar {
@@ -5990,7 +5992,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Saira Semi Condensed', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: normal;
@@ -6758,5 +6760,16 @@ button.close {
 
 /*CUSTOM*/
 .title {
-  font-family: 'Nova Mono', cursive;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.icon-bar {
+  background-color: black;
+}
+
+.anchor:before {
+  content:"";
+  display:block;
+  height:50px; /* fixed header height*/
+  margin:-50px 0 0; /* negative fixed header height */
 }
